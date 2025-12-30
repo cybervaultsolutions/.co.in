@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <title>Cybervault Solutions | DLP Specialists</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Cybervault Solutions specializes in Data Loss Prevention (DLP) consulting, implementation, tuning, and audits to protect sensitive business data." />
+  <meta name="description" content="Cybervault Solutions specializes in Data Loss Prevention (DLP) consulting, policy configuration, implementation, and server management." />
 
   <style>
     body {
@@ -16,9 +16,18 @@
     }
 
     header {
-      background: linear-gradient(135deg, #020617, #0f172a);
-      padding: 70px 20px;
+      background: linear-gradient(
+          rgba(2, 6, 23, 0.85),
+          rgba(2, 6, 23, 0.85)
+        ),
+        url("bg.jpg") center/cover no-repeat;
+      padding: 80px 20px;
       text-align: center;
+    }
+
+    header img {
+      width: 110px;
+      margin-bottom: 20px;
     }
 
     header h1 {
@@ -28,8 +37,8 @@
     }
 
     header h2 {
-      font-weight: normal;
       font-size: 20px;
+      font-weight: normal;
       color: #cbd5f5;
       margin-bottom: 20px;
     }
@@ -38,7 +47,6 @@
       max-width: 720px;
       margin: auto;
       font-size: 17px;
-      color: #e5e7eb;
     }
 
     section {
@@ -49,8 +57,8 @@
 
     h3 {
       color: #38bdf8;
-      margin-bottom: 15px;
       font-size: 26px;
+      margin-bottom: 15px;
     }
 
     .services {
@@ -63,7 +71,7 @@
     .card {
       background: #020617;
       padding: 25px;
-      border-radius: 8px;
+      border-radius: 10px;
       border: 1px solid #1e293b;
     }
 
@@ -82,19 +90,7 @@
       border-left: 4px solid #38bdf8;
       padding: 25px;
       margin-top: 30px;
-    }
-
-    footer {
-      background: #020617;
-      text-align: center;
-      padding: 25px 20px;
-      font-size: 14px;
-      color: #94a3b8;
-    }
-
-    a {
-      color: #38bdf8;
-      text-decoration: none;
+      border-radius: 6px;
     }
 
     .cta {
@@ -105,10 +101,23 @@
     .cta a {
       background: #38bdf8;
       color: #020617;
-      padding: 14px 28px;
+      padding: 14px 30px;
       border-radius: 6px;
       font-weight: bold;
-      display: inline-block;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 25px 20px;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+
+    footer a {
+      color: #38bdf8;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -116,11 +125,12 @@
 <body>
 
 <header>
+  <img src="logo.png" alt="Cybervault Solutions Logo" />
   <h1>Cybervault Solutions</h1>
   <h2>Data Loss Prevention (DLP) Specialists</h2>
   <p>
     We help organizations prevent sensitive data leakage across endpoints,
-    email, web, and cloud using enterprise-grade Data Loss Prevention solutions.
+    email, web, and cloud using enterprise-grade DLP solutions.
   </p>
 </header>
 
@@ -135,7 +145,7 @@
   <div class="highlight">
     <p>
       <strong>Cybervault Solutions</strong> focuses exclusively on DLP —
-      helping organizations stop data leakage without impacting productivity.
+      delivering practical security without impacting business productivity.
     </p>
   </div>
 </section>
@@ -147,55 +157,87 @@
     <div class="card">
       <h4>DLP Consulting & Strategy</h4>
       <p>
-        Requirement assessment, data classification, and DLP architecture
-        design aligned with business needs.
+        Requirement assessment, data discovery, classification strategy,
+        and DLP architecture design aligned with business needs.
       </p>
     </div>
 
     <div class="card">
-      <h4>DLP Implementation</h4>
+      <h4>DLP Implementation & Policy Configuration</h4>
       <p>
-        End-to-end deployment of endpoint, email, web, and cloud DLP controls.
+        End-to-end DLP implementation including policy configuration,
+        rule tuning, workflow setup, and secure rollout across endpoint,
+        email, web, and cloud channels.
       </p>
     </div>
 
     <div class="card">
-      <h4>DLP Policy Tuning</h4>
+      <h4>DLP Policy Tuning & Optimization</h4>
       <p>
-        False positive reduction, alert optimization, and business-friendly
-        policy fine-tuning.
+        Reduction of false positives, alert noise optimization,
+        and fine-tuning policies for business productivity.
       </p>
     </div>
 
     <div class="card">
       <h4>DLP Health Check & Audit</h4>
       <p>
-        Review of existing DLP setup, gap analysis, and compliance readiness
-        support.
+        Review of existing DLP environment, gap analysis,
+        compliance readiness, and best-practice validation.
       </p>
     </div>
 
     <div class="card">
       <h4>DLP Migration & Upgrades</h4>
       <p>
-        Safe migration, version upgrades, patching, and rollback planning.
+        Legacy-to-modern DLP migration, version upgrades,
+        patching, testing, and rollback planning.
       </p>
     </div>
   </div>
 </section>
 
+<!-- NEW SECTION -->
 <section>
-  <h3>Technologies</h3>
+  <h3>DLP Server Management</h3>
   <p>
-    We work with leading enterprise DLP platforms:
+    We provide reliable and secure management of enterprise DLP infrastructure
+    to ensure stability, performance, and continuous protection.
   </p>
-  <ul>
-    <li>Forcepoint DLP</li>
-    <li>Microsoft Purview DLP</li>
-    <li>Symantec / Broadcom DLP</li>
-  </ul>
 
-  <p><em>Zscaler DLP & Cloud Security — coming soon.</em></p>
+  <div class="services">
+    <div class="card">
+      <h4>DLP Server Monitoring</h4>
+      <p>
+        Continuous monitoring of DLP management servers, databases,
+        and detection servers to ensure high availability.
+      </p>
+    </div>
+
+    <div class="card">
+      <h4>Patching & Version Management</h4>
+      <p>
+        Planned patching, hotfix application, and version upgrades
+        with minimal business impact.
+      </p>
+    </div>
+
+    <div class="card">
+      <h4>Performance & Stability Management</h4>
+      <p>
+        Troubleshooting performance issues, log analysis,
+        and proactive system tuning.
+      </p>
+    </div>
+
+    <div class="card">
+      <h4>Backup, DR & Support</h4>
+      <p>
+        Configuration backups, disaster recovery readiness,
+        and L2/L3 operational support for DLP environments.
+      </p>
+    </div>
+  </div>
 
   <div class="cta">
     <a href="mailto:info@cybervault.co.in">Contact Us</a>
@@ -203,8 +245,7 @@
 </section>
 
 <footer>
-  © 2025 Cybervault Solutions · Data Loss Prevention Specialists  
-  <br />
+  © 2025 Cybervault Solutions · Data Loss Prevention Specialists<br />
   <a href="https://cybervault.co.in">www.cybervault.co.in</a>
 </footer>
 
